@@ -1,4 +1,4 @@
-
+/*header nav*/
 header {
     background: linear-gradient(rgba(12, 82, 134, 1), rgba(104, 118, 119, 1), rgba(32, 171, 208, 1));
     height:100vh;
@@ -39,5 +39,30 @@ nav ul li a {
 
 }
 nav ul li a:hover {
-    color: aquamarine;
+    color: rgb(127, 240, 255);
 }
+/*header content*/
+
+h2{
+    color: rgba(230, 243, 45, 0.973);;
+}
+header div p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 100%;
+
+    
+}
+.header.content{
+position: relative;
+top: 13rem
+width: 1%
+
+}
+/*section our work*/
+section {
+background: linear-gradient(90deg, rgba(12, 82, 134, 1) 13%, rgba(104, 118, 119, 1) 100%, rgba(32, 171, 208, 1) 100%);
+}
+section img{
+    height: 60%;
+}     
+
