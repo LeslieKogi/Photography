@@ -10,9 +10,9 @@ header {
 }
 header h1{
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: 5000;
+    font-weight: 900;
     color: rgba(230, 243, 45, 0.973);
-    
+    font-size: 50px;
 }
 nav{
     display:flex;
@@ -32,7 +32,9 @@ nav ul li{
     font-size: 155%;
 }
 header p {
-    border:black
+    border:black;
+    width: 50%;
+    font-size: 30px;
 }
 nav ul li a {
     color: beige;
@@ -44,25 +46,38 @@ nav ul li a:hover {
 /*header content*/
 
 h2{
-    color: rgba(230, 243, 45, 0.973);;
+    color: rgba(230, 243, 45, 0.973);
+    font-size: 40px;
 }
 header div p{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 100%;
+    font-size: 100px;
 
     
 }
 .header.content{
 position: relative;
-top: 13rem
-width: 1%
+top: 13rem;
 
 }
 /*section our work*/
 section {
 background: linear-gradient(90deg, rgba(12, 82, 134, 1) 13%, rgba(104, 118, 119, 1) 100%, rgba(32, 171, 208, 1) 100%);
 }
-section img{
-    height: 60%;
-}     
+section div h3{
+    font-size: 200%;
+    padding-left: 4rem;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+}
+section div img{
+    border: 4px solid black;
+    padding-left:1rem ;
+    padding-right: 1rem;
+    background-color: rgba(78, 78, 78, 0.795);
+    display: block;
+    
+}
+    
+    
 
